@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+article {
+    margin: 20px 5px 15px 30px;
+    display: inline-block;
+    width: 54%;
+}
+
+aside {
+    margin-top: 20px;
+    display: inline-block;
+    position: absolute;
+    padding-right: 330px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    line-height: 1.4;
+}
+
+ul {
+    line-height: 1.3;
+}
+
+img {
+    width: 75%;
+}
+
+a {
+    color: blue;
+}
