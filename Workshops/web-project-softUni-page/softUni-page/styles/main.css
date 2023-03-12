@@ -94,3 +94,126 @@ main {
     margin: 0 auto;
   }
 }
+
+@media screen and (min-width:768px) {
+  .general-section {
+    padding: 4rem;
+  }
+
+  .general-section .img {
+    width: 50%;
+  }
+
+  .certificates::after {
+    height: 18%;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .general-section {
+    padding: 3rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+  }
+
+  .general-section .info {
+    margin-bottom: 0;
+  }
+
+  .general-section .info__title {
+    text-align: left;
+  }
+
+  .general-section .info__desc {
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .general-section .img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0;
+  }
+
+  .certificates {
+    height: 320px;
+  }
+
+  .certificates .info {
+    width: calc(100% - 270px - 2rem);
+  }
+
+  .certificates .img {
+    position: absolute;
+    top: 8rem;
+    right: 3rem;
+    width: 270px;
+    max-width: unset;
+  }
+
+  .certificates::after {
+    display: none;
+  }
+
+  .general-section.career {
+    padding-top: 3rem;
+    flex-direction: row-reverse;
+  }
+
+  .career .btn {
+    margin-top: 0.5rem;
+  }
+
+  .general-section.diplomas {
+    overflow: hidden;
+  }
+
+  .overlay-circle {
+    display: block;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    background-color: var(--color-gray);
+    right: 4.5%;
+    top: -20%;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+  .overlay-circle>i {
+    color: white;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    font-size: 6rem;
+    color: var(--color-gray-light);
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .general-section {
+    padding: 4rem;
+  }
+
+  .certificates .info {
+    width: calc(100% - 400px);
+  }
+
+  .certificates .img {
+    right: 7.5rem;
+  }
+
+  .general-section .img {
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width:1400px) {
+  .general-section {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
